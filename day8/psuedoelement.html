@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    
+        .part::before{
+             content: " $ ";
+             
+        }
+        .after::after{
+             content: " Rs ";
+             
+        }
+        .p::first-letter{
+               color: rgb(64, 105, 218);
+        }
+        
+        .p::first-line{
+               color: palevioletred;
+        }
+        .lit li:nth-child(odd){
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="part">100</h1>
+    <h2 class="after">300</h2>
+    <p class="p">living cost in banglore has increased<br>
+        in hyderbad it has too much pollution
+    </p>
+
+    <ul class="lit">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+</html>
